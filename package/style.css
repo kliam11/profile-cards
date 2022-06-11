@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+/* BASE CARD */ 
+
+.github { 
+    position: static;
+    border: solid lightgray .5px;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    box-shadow: .5px .5px;
+    transition: 1s;
+}
+.github:hover { 
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+
+.github img { 
+    float: left;
+    padding-left: 2.5px;
+    padding-top: 2.5px;
+    border-radius: 10px;
+    width: 145px;
+    height: 145px; 
+}
+
+.github #info-div { 
+    position: fixed;
+    margin-top: -15px;
+    margin-left: 2.5px;
+    width: 195px; 
+    height: 100%;
+    display: inline-block;
+}
+
+.github h4 { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.github h5 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: -15px;
+    margin-bottom: -25px;
+    color: black;
+}
+
+.github h6 { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: black;
+}
+
+.github p { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.github ul { 
+    list-style: none;
+    margin-left: -30px;
+}
+.github li { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-right: 20px;
+    color: black;
+}
+
+
+/* SIZING  */ 
+
+.large { 
+    width: 200px;
+}
+
+.small { 
+    width: 200px;
+    border-radius: 30px;
+}
+.small img { 
+    visibility: hidden;
+}
+.small #info-div { 
+    margin-left: -140px;
+}
+
+
+/* STYLING */ 
+
+.minimal { 
+    
+}
+
+.dark { 
+    background-color: rgb(16, 16, 32);
+    border: solid white .5px;
+}
+.dark h4, .dark h5, .dark h6, .dark p, .dark li { 
+    font-family: 'Rajdhani', sans-serif;
+    color: white; 
+}
+
+.codify { 
+    background-color: rgb(0, 114, 254);
+}
+.codify h4, .codify h5, .codify h6, .codify p, .codify li { 
+    font-family: 'Roboto Mono', monospace;
+    color: white; 
+}
