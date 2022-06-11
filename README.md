@@ -13,7 +13,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
 <h3 align="center">Web Profile Cards for GitHub</h3>
