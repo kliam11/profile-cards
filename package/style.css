@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rajdhani:wght@300&display=swap');
 
 /* BASE CARD */ 
 
@@ -27,7 +28,7 @@
 }
 
 .github #info-div { 
-    position: fixed;
+    position: relative;
     margin-top: -15px;
     margin-left: 2.5px;
     width: 195px; 
@@ -71,28 +72,13 @@
 }
 
 
-/* SIZING  */ 
-
-.large { 
-    width: 200px;
-}
-
-.small { 
-    width: 200px;
-    border-radius: 30px;
-}
-.small img { 
-    visibility: hidden;
-}
-.small #info-div { 
-    margin-left: -140px;
-}
-
-
 /* STYLING */ 
 
-.minimal { 
-    
+.minimal h4, .minimal h5, .minimal h6, .minimal p, .minimal li { 
+    font-family: 'Poppins', sans-serif;
+}
+.minimal ul { 
+    margin-top: -20px;
 }
 
 .dark { 
