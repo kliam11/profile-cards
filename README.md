@@ -54,6 +54,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+I was just looking for a way to get my GitHub user profile on my website, so I thought I'd share what I did so that others can easily add the profiles to their sites too as a card! As it stands, there are three styles (from left to right: minimal, dark and codify). There is only one size but since they are written in CSS, they can be fitted to one's needs. They are designed to showcase basic user data and act as a link to your GitHub! 
+
 ![profile-cards Screen Shot][product-screenshot]
 
 ### Built With
@@ -67,10 +69,27 @@ Built with CSS and JavaScript.
 <!-- GETTING STARTED -->
 ## Getting Started
 
+To use in your website, follow the examples below: 
+
+```
+<div class="profile-card github minimal" data-user="your-github-username"></div>
+<div class="profile-card github dark" data-user="your-github-username"></div>
+<div class="profile-card github codify" data-user="your-github-username"></div>  
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Installation
+## Installation
+
+Download the 'package' folder containing the necessary files and include them in your project. You will then need to link in the profile-cards.css and profile-cards.js files into your HTML: 
+
+```
+<link rel="stylesheet" href="profile-cards/profile-cards.css">
+<script src="profile-cards/profile-cards.js" defer></script>
+``` 
+
+Note: this may be made available for install through npm in the future.  
 
 <p align="right">(<a href="#top">back to top</a>)</p>    
 
