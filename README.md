@@ -88,8 +88,6 @@ Download the 'package' folder containing the necessary files and include them in
 <script src="profile-cards/profile-cards.js" defer></script>
 ``` 
 
-Note: this may be made available for install through npm in the future.  
-
 <p align="right">(<a href="#top">back to top</a>)</p>    
 
 
